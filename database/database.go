@@ -11,7 +11,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 
-var connectionString string = "mongodb+srv://anand:anand@cluster0.edm6shk.mongodb.net/?retryWrites=true&w=majority"
+var connectionString string = ""
 
 type DB struct {
 	client *mongo.Client
